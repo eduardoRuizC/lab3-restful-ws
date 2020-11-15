@@ -86,7 +86,7 @@ public class AddressBookController {
   @PUT
   @Path("/person/{id}")
   @Produces(MediaType.APPLICATION_JSON)
-  public Response updatePerson(@Context UriInfo info,
+  public Response deletePerson(@Context UriInfo info,
                                @PathParam("id") int id, Person person) {
     for (int i = 0; i < addressBook.getPersonList().size(); i++) {
       if (addressBook.getPersonList().get(i).getId() == id) {
@@ -108,7 +108,7 @@ public class AddressBookController {
   @DELETE
   @Path("/person/{id}")
   @Produces(MediaType.APPLICATION_JSON)
-  public Response updatePerson(@PathParam("id") int id) {
+  public Response deletePerson(@PathParam("id") int id) {
     for (int i = 0; i < addressBook.getPersonList().size(); i++) {
       if (addressBook.getPersonList().get(i).getId() == id) {
         addressBook.getPersonList().remove(i);
