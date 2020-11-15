@@ -315,6 +315,7 @@ public class AddressBookServiceTest {
     assertEquals(newMariaUpdated.getName(), mariaUpdated.getName());
     assertEquals(newMariaUpdated.getId(), mariaUpdated.getId());
     assertEquals(newMariaUpdated.getHref(), mariaUpdated.getHref());
+
   }
 
   @Test
