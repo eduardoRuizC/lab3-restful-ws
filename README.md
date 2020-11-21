@@ -28,11 +28,8 @@ Done:
 
 - [Replace the current implementation (Jakarta Jersey) by a Spring MVC (Servlet) implementation](https://github.com/rauljavierre/lab3-restful-ws/tree/test) was implemented by Raul Javierre. He has learned how to map concepts from JAX-RS to Spring MVC and how frameworks can help to obtain extra information from HTTP requests :gift:
 - [CORS support](https://github.com/UNIZAR-30246-WebEngineering/lab3-restful-ws/pull/12) was implemented by Alvaro García on the original Jakarta Jersey implementation. His PR is explains how CORS works very clearly. Worth read :gift:
-- [Use JWT credentials to grant access to requests](https://github.com/UNIZAR-30246-WebEngineering/lab3-restful-ws/pull/14) was implemented by Alberto Calvo on the original Jakarta Jersey implementation. How JWT support is implemented in framework may differ. For example, Spring Framework requires the use of a Filter in order to integrate JWT with Spring Security. However Jakarta Jersey is more clean and the implementation of Alberto makes easier to understand how JWT works on the server side :gift:
-
-In progress:
-
-- Support of OpenAPI 3.0
+- [Use JWT credentials to grant access to requests](https://github.com/UNIZAR-30246-WebEngineering/lab3-restful-ws/pull/14) was implemented by Alberto Calvo on the original Jakarta Jersey implementation. How JWT support is implemented in frameworks may differ. For example, Spring Framework requires the use of a Filter in order to integrate JWT with Spring Security. However Jakarta Jersey is more clean and the implementation of Alberto makes easier to understand how JWT works on the server side :gift:
+- [Support of OpenAPI 3.0](https://github.com/UNIZAR-30246-WebEngineering/lab3-restful-ws/pull/38) was implemented by Jorge García on the original Jakarta Jersy implementation. He has learned that documenting an API is an easy but tedious word. Also, it is an error prone task because the documentation may drift away from the implementation easily. 
 
 Proposed:
 
@@ -74,7 +71,7 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | 737070 |[Daniel Barceló](https://github.com/DaniBarcelo) |[DaniBarcelo/lab3-restful-ws](https://github.com/DaniBarcelo/lab3-restful-ws/tree/test)|[![Build Status](https://travis-ci.com/DaniBarcelo/lab3-restful-ws.svg)](https://travis-ci.com/DaniBarcelo/lab3-restful-ws) | | |
 | 757715 |[Hayk Kocharyan](https://github.com/hayk99)|[hayk99/lab3-restful-ws](https://github.com/hayk99/lab3-restful-ws/tree/test)| ![Build Status](https://travis-ci.com/hayk99/lab3-restful-ws.svg?branch=test)|  |
 | 757755 |[Andrés Otero García](https://github.com/andrewknoll) | [andrewknoll/lab3-restful-ws](https://github.com/andrewknoll/lab3-restful-ws/tree/test) |![Build Status](https://travis-ci.com/andrewknoll/lab3-restful-ws.svg?branch=test)|             |
-| 758807 |[Jorge García](https://github.com/jgarciapueyo) | [jgarciapueyo/lab3-restful-ws](https://github.com/jgarciapueyo/lab3-restful-ws/tree/test) |![Build Status](https://travis-ci.com/jgarciapueyo/lab3-restful-ws.svg?branch=test) | Support of OpenAPI 3.0 | |
+| 758807 |[Jorge García](https://github.com/jgarciapueyo) | [jgarciapueyo/lab3-restful-ws](https://github.com/jgarciapueyo/lab3-restful-ws/tree/test) |![Build Status](https://travis-ci.com/jgarciapueyo/lab3-restful-ws.svg?branch=test) | Support of OpenAPI 3.0 | :gift: |
 | 735041 |[Eduardo Díaz](https://github.com/ediazl)|[ediazl/lab3-restful-ws](https://github.com/ediazl/lab3-restful-ws/tree/test)| ![Build Status](https://travis-ci.com/ediazl/lab3-restful-ws.svg?branch=test)|  |
 | 737791 |[Alejandro Omist Casado](https://github.com/oumist)|[oumist/lab3-restful-ws](https://github.com/oumist/lab3-restful-ws/tree/test)| ![Build Status](https://travis-ci.com/oumist/lab3-restful-ws.svg?branch=test)|  |
 | 723883 |[Jorge Turbica](https://github.com/turbica)|[turbica/lab3-restful-ws](https://github.com/turbica/lab3-restful-ws/tree/test)| ![Build Status](https://travis-ci.com/turbica/lab3-restful-ws.svg?branch=test)|  |
